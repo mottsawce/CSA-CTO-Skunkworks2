@@ -5,6 +5,8 @@ import { parseAnswer } from './AnswerParser';
 import { useAppContext } from '../../state/useAppContext';
 import { actionConstants } from '../../state/ActionConstants';
 // import { parseAnswer } from "./AnswerParser";
+// import styles from "./Citations.css";
+import "./Citations.css";
 
 interface Props {
     answer: AskResponse;
@@ -71,10 +73,10 @@ const Citations = ({ answer, index }: Props) => {
                         title={createCitationFilepath(citation, ++idx)}
                         key={idx}
                         onClick={() => onCitationClicked(citation)}
-                    // className={styles.citationContainer}
+                     className={"citationContainer"}
                     >
                         <div
-                            // className={styles.citation} 
+                             className={"citation"} 
                             key={idx}>
                             {idx}
                         </div>

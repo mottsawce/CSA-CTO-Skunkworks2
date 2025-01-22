@@ -26,6 +26,9 @@ import { callConversationApi, historyUpdate } from "../../api/api";
 import { ChatAdd24Regular } from "@fluentui/react-icons";
 import { generateUUIDv4 } from "../../configs/Utils";
 import ChatChart from "../ChatChart/ChatChart";
+import Citations from "../Citations/Citations";
+import { ToolMessageContent } from "../../api/models";
+import SampleResponseCitation from '../../sampleResponseCitation.json'
 
 type ChatProps = {
   onHandlePanelStates: (name: string) => void;
@@ -439,7 +442,27 @@ const Chat: React.FC<ChatProps> = ({
   const onNewConversation = () => {
     dispatch({ type: actionConstants.NEW_CONVERSATION_START });
   };
+
+  const parseCitationFromMessage = (message: Omit<ChatMessage, 'id' | 'date'>) => {
+    console.log("parseCitationFromMessage", message);
+
+    if (message.role === TOOL) {
+      try {
+        const toolMessage = JSON.parse(message.content as string) as ToolMessageContent;
+        console.log("toolMessage citations", toolMessage.citations);
+        
+        return toolMessage.citations;
+      } catch {
+        console.log("ERROR WHIEL PARSING TOOL CONTENT");
+        
+        return [];
+      }
+    }
+    return [];
+  };
+
   const { messages } = state.chat;
+  console.log(" @@@@ citation", state);
   return (
     <div className="chat-container">
       <div className="chat-header">
@@ -501,12 +524,25 @@ const Chat: React.FC<ChatProps> = ({
                     </div>
                   );
                 }
+
+                const toolObject = SampleResponseCitation.choices[0].messages[0];
+                const messageContent = SampleResponseCitation.choices[0].messages[1].content;
                 if (typeof msg.content === "string") {
                   return (
                     <div className="assistant-message">
                       <ReactMarkdown
                         remarkPlugins={[remarkGfm, supersub]}
                         children={msg.content}
+                      />
+                      <Citations
+                      answer={{
+                        answer: messageContent, //msg.content
+                        citations:
+                          msg.role === ASSISTANT
+                            ? parseCitationFromMessage(toolObject)
+                            : [],
+                      }} 
+                      index={index}
                       />
                       <div className="answerDisclaimerContainer">
                         <span className="answerDisclaimer">

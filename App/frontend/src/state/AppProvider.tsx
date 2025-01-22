@@ -31,6 +31,10 @@ export type AppState = {
     lastRagResponse: string | null;
     isStreamingInProgress: boolean;
   };
+  citation: {
+    activeCitation: any;
+    showCitation: boolean;
+  };
   chatHistory: {
     list: Conversation[];
     fetchingConversations: boolean;
@@ -67,6 +71,10 @@ const initialState: AppState = {
     userMessage: "",
     lastRagResponse: null,
     isStreamingInProgress: false,
+  },
+  citation: {
+    activeCitation: null,
+    showCitation: false,
   },
   chatHistory: {
     list: [],
@@ -194,6 +202,10 @@ export type Action =
   | {
       type: typeof actionConstants.UPDATE_FILTERS_FETCHING_FLAG;
       payload: boolean;
+    }
+  | {
+      type: typeof actionConstants.UPDATE_CITATION;
+      payload: {activeCitation: any, showCitation: boolean};
     };
 
 export const AppContext = createContext<{

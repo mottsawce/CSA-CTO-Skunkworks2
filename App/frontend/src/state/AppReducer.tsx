@@ -250,6 +250,15 @@ const appReducer = (state: AppState, action: Action): AppState => {
           fetchingFilters: action.payload,
         },
       };
+      case actionConstants.UPDATE_CITATION:
+      return {
+        ...state,
+        citation: {
+          ...state.citation,
+          activeCitation: action.payload.activeCitation,
+          showCitation: action.payload.showCitation
+        },
+      };
     default:
       return state;
   }

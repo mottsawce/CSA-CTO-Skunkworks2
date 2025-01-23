@@ -27,14 +27,15 @@ export function parseAnswer(answer: AskResponse): ParsedAnswer {
         // Replacing the links/citations with number
         let citationIndex = link.slice(lengthDocN, link.length - 1);
         let citation = cloneDeep(answer.citations[Number(citationIndex) - 1]) as Citation;
-        if (!isDuplicate(citation, citationIndex) && citation !== undefined) {
+
+        if (citation !== undefined && !isDuplicate(citation, citationIndex)) {
           answerText = answerText.replaceAll(link, ` ^${++citationReindex}^ `);
           citation.id = citationIndex; // original doc index to de-dupe
           citation.reindex_id = citationReindex.toString(); // reindex from 1 for display
           filteredCitations.push(citation);
         }else{
             // Replacing duplicate citation with original index
-            let matchingCitation = filteredCitations.find((ct) => citation.chunk_id == ct.chunk_id);
+            let matchingCitation = filteredCitations.find((ct) => citation?.chunk_id == ct?.chunk_id);
             if (matchingCitation) {
                 answerText= answerText.replaceAll(link, ` ^${matchingCitation.reindex_id}^ `)
             }

@@ -19,6 +19,9 @@ from semantic_kernel.functions.kernel_function_decorator import kernel_function
 from semantic_kernel.kernel import Kernel
 import pymssql
 
+from azure.identity import DefaultAzureCredential
+from azure.ai.projects import AIProjectClient
+
 # from semantic_kernel import Kernel
 # from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion
 # from semantic_kernel.connectors.ai.open_ai.prompt_execution_settings.open_ai_prompt_execution_settings import OpenAIChatPromptExecutionSettings
@@ -48,11 +51,17 @@ class ChatWithDataPlugin:
         deployment = os.environ.get("AZURE_OPEN_AI_DEPLOYMENT_MODEL")
         temperature = 0
 
-        client = openai.AzureOpenAI(
-            azure_endpoint=endpoint,
-            api_key=api_key,
-            api_version="2023-09-01-preview"
-        )
+        project_connection_string=os.environ.get("AZURE_AI_PROJECT_CONN_STRING")
+        project = AIProjectClient.from_connection_string(
+            conn_str=project_connection_string,
+            credential=DefaultAzureCredential())
+        
+        client = project.inference.get_azure_openai_client(api_version="2024-06-01")
+        # client = openai.AzureOpenAI(
+        #     azure_endpoint=endpoint,
+        #     api_key=api_key,
+        #     api_version="2023-09-01-preview"
+        # )
 
         try:
             completion = client.chat.completions.create(
@@ -85,11 +94,17 @@ class ChatWithDataPlugin:
         api_version = os.environ.get("OPENAI_API_VERSION")
         deployment = os.environ.get("AZURE_OPEN_AI_DEPLOYMENT_MODEL")
 
-        client = openai.AzureOpenAI(
-            azure_endpoint=endpoint,
-            api_key=api_key,
-            api_version="2023-09-01-preview"
-        )
+        project_connection_string=os.environ.get("AZURE_AI_PROJECT_CONN_STRING")
+        project = AIProjectClient.from_connection_string(
+            conn_str=project_connection_string,
+            credential=DefaultAzureCredential())
+        
+        client = project.inference.get_azure_openai_client(api_version="2024-06-01")
+        # client = openai.AzureOpenAI(
+        #     azure_endpoint=endpoint,
+        #     api_key=api_key,
+        #     api_version="2023-09-01-preview"
+        # )
 
         sql_prompt = f'''A valid T-SQL query to find {query} for tables and columns provided below:
         1. Table: km_processed_data
@@ -145,11 +160,17 @@ class ChatWithDataPlugin:
         search_key = os.environ.get("AZURE_AI_SEARCH_API_KEY")
         index_name = os.environ.get("AZURE_AI_SEARCH_INDEX")
 
-        client = openai.AzureOpenAI(
-            azure_endpoint= endpoint, #f"{endpoint}/openai/deployments/{deployment}/extensions", 
-            api_key=apikey, 
-            api_version="2024-02-01"
-        )
+        project_connection_string=os.environ.get("AZURE_AI_PROJECT_CONN_STRING")
+        project = AIProjectClient.from_connection_string(
+            conn_str=project_connection_string,
+            credential=DefaultAzureCredential())
+        
+        client = project.inference.get_azure_openai_client(api_version="2024-06-01")
+        # client = openai.AzureOpenAI(
+        #     azure_endpoint= endpoint, #f"{endpoint}/openai/deployments/{deployment}/extensions", 
+        #     api_key=apikey, 
+        #     api_version="2024-02-01"
+        # )
 
         query = question
         system_message = '''You are an assistant who provides an analyst with helpful information about data. 

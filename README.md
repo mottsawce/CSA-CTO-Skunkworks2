@@ -50,7 +50,7 @@ You have options for deployment. Below are options for: Bicep, GitHub Codespaces
 We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
 
 <details>
-  <summary>**### **Deploy using Bicep (Preferred Option)**</summary>
+  <summary>**Deploy using Bicep (Preferred Option)**</summary>
 
 1. Please check the link [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) and choose a region where Azure AI Search, Azure OpenAI services, Azure AI Foundry Services are available. 
 

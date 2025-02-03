@@ -38,7 +38,7 @@ The sample data used in this repository is synthetic and generated using Azure O
 
 <h2><img src="./Documents/Images/ReadMe/quickDeploy.png" width="64">
 <br/>
-Deployment & Installation 
+Deployment & installation 
 </h2>
 
 ### **Prerequisites**
@@ -50,7 +50,7 @@ Pick from the options below to see step-by-step instructions for: Bicep, GitHub 
 We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
 
 <details>
-  <summary><b>Deploy Using Bicep (Preferred Option)</b></summary>
+  <summary><b>Deploy in Bicep (Preferred Option)</b></summary>
 
 ### Quick Deploy (Bicep)
 
@@ -121,7 +121,7 @@ All files WAV files can be uploaded in the corresponding Lakehouse in the data/F
 </details>
 
 <details>
-  <summary><b>Deploy Using GitHub Codespaces</b></summary>
+  <summary><b>Deploy in GitHub Codespaces</b></summary>
 
  ### GitHub Codpespaces
 
@@ -137,7 +137,7 @@ You can run this template virtually by using GitHub Codespaces. The button will 
 </details>
 
 <details>
-  <summary><b>Deploy Using VS Code</b></summary>
+  <summary><b>Deploy in VS Code</b></summary>
 
  ### VS Code Dev Containers
 
@@ -154,7 +154,7 @@ A related option is VS Code Dev Containers, which will open the project in your 
 </details>
 
 <details>
-  <summary><b>Deploy In Local Environment</b></summary>
+  <summary><b>Deploy in your local environment</b></summary>
 
  ### Local environment
 

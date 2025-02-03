@@ -118,6 +118,7 @@ All files WAV files can be uploaded in the corresponding Lakehouse in the data/F
 ### Post-deployment
 - To process additional files, manually execute the pipeline_notebook after uploading new files.
 - The OpenAI prompt can be modified within the Fabric notebooks.
+</details>
 
 <details>
   <summary><b>Deploy Using GitHub Codespaces</b></summary>
@@ -133,6 +134,8 @@ You can run this template virtually by using GitHub Codespaces. The button will 
 2. Open a terminal window
 3. Continue with the [deploying steps](#deploying)
 
+</details>
+
 <details>
   <summary><b>Deploy Using VS Code</b></summary>
 
@@ -147,6 +150,8 @@ A related option is VS Code Dev Containers, which will open the project in your 
 
 3. In the VS Code window that opens, once the project files show up (this may take several minutes), open a terminal window.
 4. Continue with the [deploying steps](#deploying)
+
+</details>
 
 <details>
   <summary><b>Deploy In Local Environment</b></summary>
@@ -176,6 +181,7 @@ If you're not using one of the above options for opening the project, then you'l
 
 Once you've opened the project in [Codespaces](#github-codespaces), in [Dev Containers](#vs-code-dev-containers), or [locally](#local-environment), you can deploy it to Azure.
 
+</details>
 
 <br/>
 <h2>

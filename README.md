@@ -38,17 +38,19 @@ The sample data used in this repository is synthetic and generated using Azure O
 
 <h2><img src="./Documents/Images/ReadMe/quickDeploy.png" width="64">
 <br/>
-Quick deploy
+Deploy 
 </h2>
 
 ### **Prerequisites**
 
 To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/) with permission to create resource groups and resources. 
 
+### **Deployment & Installation**
+You have options for deployment. Below are options for: Bicep, GitHub Codespaces, VS Code Dev Containers, and Local Environments.
+We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
+
 <details>
-  <summary>Click to expand!</summary>
-  
-  ### **How to install/deploy**
+  <summary>**### **Deploy using Bicep (Preferred Option)**</summary>
 
 1. Please check the link [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) and choose a region where Azure AI Search, Azure OpenAI services, Azure AI Foundry Services are available. 
 

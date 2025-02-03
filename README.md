@@ -102,6 +102,17 @@ To use this solution accelerator, you will need access to an [Azure subscription
    
     Follow steps in [App Authentication](./Documents/AppAuthentication.md) to configure authenitcation in app service.
 
+### Upload additional files
+
+All files WAV files can be uploaded in the corresponding Lakehouse in the data/Files folder:
+
+- Audio (WAV files):
+  Upload Audio files in the *cu_audio_files_all* folder.
+
+
+### Post-deployment
+- To process additional files, manually execute the pipeline_notebook after uploading new files.
+- The OpenAI prompt can be modified within the Fabric notebooks.
 ## Additional Deployment Options
 
 You have a few more options for getting started. Below are deployment options for: GitHub Codespaces, VS Code Dev Containers, and Local Environments.
@@ -153,18 +164,6 @@ If you're not using one of the above options for opening the project, then you'l
 ## Deploying
 
 Once you've opened the project in [Codespaces](#github-codespaces), in [Dev Containers](#vs-code-dev-containers), or [locally](#local-environment), you can deploy it to Azure.
-
-### Upload additional files
-
-All files WAV files can be uploaded in the corresponding Lakehouse in the data/Files folder:
-
-- Audio (WAV files):
-  Upload Audio files in the *cu_audio_files_all* folder.
-
-
-### Post-deployment
-- To process additional files, manually execute the pipeline_notebook after uploading new files.
-- The OpenAI prompt can be modified within the Fabric notebooks.
 
 
 <br/>

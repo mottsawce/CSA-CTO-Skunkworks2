@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import azure.functions as func
 import openai
 from azurefunctions.extensions.http.fastapi import Request, StreamingResponse
@@ -19,7 +18,6 @@ import pymssql
 
 # Azure Function App
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
-load_dotenv()
 HOST_NAME = "CKM"
 HOST_INSTRUCTIONS = "Answer questions about call center operations"
 

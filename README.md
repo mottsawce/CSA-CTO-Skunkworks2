@@ -123,7 +123,23 @@ Supporting documentation
 </h2>
 
 ### 
+# Azure AI Foundry Starter Template
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/azureai-basic-python)
+[![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Azure-Samples/azureai-basic-python)
+
+This project creates an Azure AI Foundry hub, project and connected resources including Azure AI Services, AI Search and more. It also deploys a simple chat application to Azure Container Apps.
+
+* [Features](#features)
+* [Architecture diagram](#architecture-diagram)
+* [Getting started](#getting-started)
+  * [GitHub Codespaces](#github-codespaces)
+  * [VS Code Dev Containers](#vs-code-dev-containers)
+  * [Local environment](#local-environment)
+* [Deploying](#deploying)
+* [Development server](#development-server)
+* [Guidance](#guidance)
+* [Resources](#resources)
 ### How to customize 
 
 If you'd like to customize the accelerator, here are some ways you might do that:

@@ -38,15 +38,15 @@ The sample data used in this repository is synthetic and generated using Azure O
 
 <h2><img src="./Documents/Images/ReadMe/quickDeploy.png" width="64">
 <br/>
-Deploy 
+Deployment & Installation 
 </h2>
 
 ### **Prerequisites**
 
 To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/) with permission to create resource groups and resources. 
 
-### **Deployment & Installation**
-You have options for deployment. Below are options for: Bicep, GitHub Codespaces, VS Code Dev Containers, and Local Environments.
+### **Options**
+Pick from the options below to see step-by-step instructions for: Bicep, GitHub Codespaces, VS Code Dev Containers, and Local Environments, deployments.
 We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
 
 <details>

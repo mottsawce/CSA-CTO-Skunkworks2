@@ -45,8 +45,10 @@ Quick deploy
 
 To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/) with permission to create resource groups and resources. 
 
-
-### **How to install/deploy**
+<details>
+  <summary>Click to expand!</summary>
+  
+  ### **How to install/deploy**
 
 1. Please check the link [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) and choose a region where Azure AI Search, Azure OpenAI services, Azure AI Foundry Services are available. 
 
@@ -109,10 +111,11 @@ All files WAV files can be uploaded in the corresponding Lakehouse in the data/F
 - Audio (WAV files):
   Upload Audio files in the *cu_audio_files_all* folder.
 
-
 ### Post-deployment
 - To process additional files, manually execute the pipeline_notebook after uploading new files.
 - The OpenAI prompt can be modified within the Fabric notebooks.
+
+- 
 ## Additional Deployment Options
 
 You have a few more options for getting started. Below are deployment options for: GitHub Codespaces, VS Code Dev Containers, and Local Environments.

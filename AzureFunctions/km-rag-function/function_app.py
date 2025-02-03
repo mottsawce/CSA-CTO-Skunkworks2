@@ -108,7 +108,7 @@ class ChatWithDataPlugin:
     ):
         search_endpoint = os.environ.get("AZURE_AI_SEARCH_ENDPOINT") 
         search_key = os.environ.get("AZURE_AI_SEARCH_API_KEY")
-        index_name = os.environ.get("AZURE_SEARCH_INDEX")
+        index_name = os.environ.get("AZURE_AI_SEARCH_INDEX")
 
         deployment=os.environ.get("AZURE_AIPROJECT_OPENAI_DEPLOYMENT_MODEL")
         project_connection_string=os.environ.get("AZURE_AI_PROJECT_CONN_STRING")

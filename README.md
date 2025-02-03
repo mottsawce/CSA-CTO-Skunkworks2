@@ -50,7 +50,7 @@ You have options for deployment. Below are options for: Bicep, GitHub Codespaces
 We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
 
 <details>
-  <summary><b>Deploy using Bicep (Preferred Option)</b></summary>
+  <summary><b>Deploy Using Bicep (Preferred Option)</b></summary>
 
 1. Please check the link [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) and choose a region where Azure AI Search, Azure OpenAI services, Azure AI Foundry Services are available. 
 
@@ -117,13 +117,9 @@ All files WAV files can be uploaded in the corresponding Lakehouse in the data/F
 - To process additional files, manually execute the pipeline_notebook after uploading new files.
 - The OpenAI prompt can be modified within the Fabric notebooks.
 
-- 
-## Additional Deployment Options
-
-You have a few more options for getting started. Below are deployment options for: GitHub Codespaces, VS Code Dev Containers, and Local Environments.
-
-### GitHub Codespaces
-
+<details>
+  <summary><b>Deploy Using GitHub Codespaces</b></summary>
+### GitHub Codpespaces
 You can run this template virtually by using GitHub Codespaces. The button will open a web-based VS Code instance in your browser:
 
 1. Open the template (this may take several minutes):
@@ -133,6 +129,8 @@ You can run this template virtually by using GitHub Codespaces. The button will 
 2. Open a terminal window
 3. Continue with the [deploying steps](#deploying)
 
+<details>
+  <summary><b>Deploy Using VS Code</b></summary>
 ### VS Code Dev Containers
 
 A related option is VS Code Dev Containers, which will open the project in your local VS Code using the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers):
@@ -145,6 +143,8 @@ A related option is VS Code Dev Containers, which will open the project in your 
 3. In the VS Code window that opens, once the project files show up (this may take several minutes), open a terminal window.
 4. Continue with the [deploying steps](#deploying)
 
+<details>
+  <summary><b>Deploy In Local Environment</b></summary>
 ### Local environment
 
 If you're not using one of the above options for opening the project, then you'll need to:

@@ -102,7 +102,57 @@ To use this solution accelerator, you will need access to an [Azure subscription
    
     Follow steps in [App Authentication](./Documents/AppAuthentication.md) to configure authenitcation in app service.
 
+## Additional Deployment Options
 
+You have a few more options for getting started. Below are deployment options for: GitHub Codespaces, VS Code Dev Containers, and Local Environments.
+
+### GitHub Codespaces
+
+You can run this template virtually by using GitHub Codespaces. The button will open a web-based VS Code instance in your browser:
+
+1. Open the template (this may take several minutes):
+
+    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/azureai-basic-python)
+
+2. Open a terminal window
+3. Continue with the [deploying steps](#deploying)
+
+### VS Code Dev Containers
+
+A related option is VS Code Dev Containers, which will open the project in your local VS Code using the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers):
+
+1. Start Docker Desktop (install it if not already installed)
+2. Open the project:
+
+    [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Azure-Samples/azureai-basic-python)
+
+3. In the VS Code window that opens, once the project files show up (this may take several minutes), open a terminal window.
+4. Continue with the [deploying steps](#deploying)
+
+### Local environment
+
+If you're not using one of the above options for opening the project, then you'll need to:
+
+1. Make sure the following tools are installed:
+
+    * [Azure Developer CLI (azd)](https://aka.ms/install-azd)
+    * [Python 3.9+](https://www.python.org/downloads/)
+    * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+    * [Git](https://git-scm.com/downloads)
+
+2. Download the project code:
+
+    ```shell
+    azd init -t azureai-basic-python
+    ```
+
+3. Open the project folder in your terminal or editor.
+
+4. Continue with the [deploying steps](#deploying).
+
+## Deploying
+
+Once you've opened the project in [Codespaces](#github-codespaces), in [Dev Containers](#vs-code-dev-containers), or [locally](#local-environment), you can deploy it to Azure.
 
 ### Upload additional files
 
@@ -123,23 +173,7 @@ Supporting documentation
 </h2>
 
 ### 
-# Azure AI Foundry Starter Template
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Azure-Samples/azureai-basic-python)
-[![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Azure-Samples/azureai-basic-python)
-
-This project creates an Azure AI Foundry hub, project and connected resources including Azure AI Services, AI Search and more. It also deploys a simple chat application to Azure Container Apps.
-
-* [Features](#features)
-* [Architecture diagram](#architecture-diagram)
-* [Getting started](#getting-started)
-  * [GitHub Codespaces](#github-codespaces)
-  * [VS Code Dev Containers](#vs-code-dev-containers)
-  * [Local environment](#local-environment)
-* [Deploying](#deploying)
-* [Development server](#development-server)
-* [Guidance](#guidance)
-* [Resources](#resources)
 ### How to customize 
 
 If you'd like to customize the accelerator, here are some ways you might do that:

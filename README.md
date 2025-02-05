@@ -1,6 +1,7 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**Use case / scenario**](#user-story) \| [**Deployment options**](#deployment-options) \| [**Supporting Documentation**](#supporting-documentation) \|
+MENU: [**USE CASE / SCENARIO**](#use-case) \| [**DEPLOYMENT OPTIONS**](#deployment-options) \| [**SUPPORTING DOCUMENTATION**](#supporting-documentation) \|  [**VERSION HISTORY**](#version-history) \|
+
 
 
 <h2><img src="./Documents/Images/ReadMe/userStory.png" width="64">

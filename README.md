@@ -207,12 +207,6 @@ An updated version of the Conversation Knowledge Mining (CKM) solution accelerat
 #### Release 2
 An updated version of the Conversation Knowledge Mining (CKM) solution accelerator was published on 08/15/2024. If you deployed the accelerator prior to that date, please note that CKM v2 cannot be deployed over CKM v1. Please also note that the CKM Release 2 JSON conversation file format has been revised to include additional metadata, therefore CKM v1 files are no longer compatible. For resources related to CKM v1, please visit our archive ([link-to-archive](https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator/tree/ckm-v1)).
 
-<h2><img src="./Documents/Images/ReadMe/customerTruth.png" width="64">
-</br>
-Customer truth
-</h2>
-Customer stories coming soon.
-
 <h2>
 </br>
 Responsible AI Transparency FAQ 

@@ -1,7 +1,7 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**USER STORY**](#user-story) \| [**QUICK DEPLOY**](#quick-deploy)  \| [**SUPPORTING DOCUMENTATION**](#supporting-documentation) \|
-[**CUSTOMER TRUTH**](#customer-truth)
+MENU: [**Use case / scenario**](#user-story) \| [**Deployment options**](#deployment-options) \| [**Supporting Documentation**](#supporting-documentation) \|
+
 
 <h2><img src="./Documents/Images/ReadMe/userStory.png" width="64">
 <br/>
@@ -45,7 +45,7 @@ Deployment & installation
 
 To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/) with permission to create resource groups and resources. 
 
-### **Options**
+### **Deployment Options**
 Pick from the options below to see step-by-step instructions for: Bicep, GitHub Codespaces, VS Code Dev Containers, and Local Environments, deployments.
 We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
 
@@ -174,12 +174,6 @@ If you're not using one of the above options for opening the project, then you'l
     ```
 
 3. Open the project folder in your terminal or editor.
-
-4. Continue with the [deploying steps](#deploying).
-
-## Deploying
-
-Once you've opened the project in [Codespaces](#github-codespaces), in [Dev Containers](#vs-code-dev-containers), or [locally](#local-environment), you can deploy it to Azure.
 
 </details>
 

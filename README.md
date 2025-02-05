@@ -1,6 +1,6 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**DEPLOYMENT OPTIONS**](#deployment-options) \| [**SUPPORTING DOCUMENTATION**](#supporting-documentation) \|  [**VERSION HISTORY**](#version-history) \|
+MENU: [**DEPLOYMENT OPTIONS**](#deployment-options) \| [**SUPPORTING DOCUMENTATION**](#supporting-documentation) \|  [**VERSION HISTORY**](#version-history)
 
 
 

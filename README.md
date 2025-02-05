@@ -33,7 +33,7 @@ This solution empowers analysts with tools to ask questions and receive real-tim
 
 The sample data used in this repository is synthetic and generated using Azure Open AI service. The data is intended for use as sample data only.
 
-### Solution accelerator architecture
+### Architecture
 ![image](./Documents/Images/ReadMe/ckm-sol-arch.png)
 
 
@@ -51,9 +51,9 @@ Pick from the options below to see step-by-step instructions for: Bicep, GitHub 
 We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
 
 <details>
-  <summary><b>Deploy in Bicep (Preferred Option)</b></summary>
+  <summary><b>Deploy in Bicep</b></summary>
 
-### Quick Deploy (Bicep)
+### Bicep
 
 1. Please check the link [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) and choose a region where Azure AI Search, Azure OpenAI services, Azure AI Foundry Services are available. 
 
@@ -155,9 +155,9 @@ A related option is VS Code Dev Containers, which will open the project in your 
 </details>
 
 <details>
-  <summary><b>Deploy in your local environment</b></summary>
+  <summary><b>Deploy in your local environment / AZD</b></summary>
 
- ### Local environment
+ ### Local environment / AZD
 
 If you're not using one of the above options for opening the project, then you'll need to:
 

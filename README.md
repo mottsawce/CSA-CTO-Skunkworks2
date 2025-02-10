@@ -51,14 +51,28 @@ Pick from the options below to see step-by-step instructions for: Bicep, GitHub 
 We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
 
 <details>
-  <summary style="font-size: 24px; font-weight: bold; color: blue;">Quick Deploy with Azure Developer CLI (AZD)</summary>
-  <p style="font-size: 16px; font-weight: normal; color: green;">
-    This is the content inside the expandable section. You can customize the font size, weight, and color as needed.
-  </p>
-</details>
+  <summary><b>Quick deploy using AZD</b></summary>
 
-<details>
-  <summary><b>Deploy in Bicep</b></summary>
+### Local environment using Azure Developer CLI
+
+This is the fastest way to get the solution deployed and uses the command line interface. We recommend this option when you're trying out a solution. Visit 'https://learn.microsoft.com/en-us/azure/deployment-environments/concept-azure-developer-cli-with-deployment-environments' if you need help with AZD deployments. Follow the steps below to get started:
+
+1. Make sure the following tools are installed:
+
+    * [Azure Developer CLI (azd)](https://aka.ms/install-azd)
+    * [Python 3.9+](https://www.python.org/downloads/)
+    * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+    * [Git](https://git-scm.com/downloads)
+
+2. Download the project code:
+
+    ```shell
+    azd init -t azureai-basic-python
+    ```
+
+3. Open the project folder in your terminal or editor.
+
+</details>
 
 ### Bicep
 
@@ -161,36 +175,11 @@ A related option is VS Code Dev Containers, which will open the project in your 
 
 </details>
 
-<details>
-  <summary><b>Deploy in your local environment / AZD</b></summary>
-
- ### Local environment / AZD
-
-If you're not using one of the above options for opening the project, then you'll need to:
-
-1. Make sure the following tools are installed:
-
-    * [Azure Developer CLI (azd)](https://aka.ms/install-azd)
-    * [Python 3.9+](https://www.python.org/downloads/)
-    * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-    * [Git](https://git-scm.com/downloads)
-
-2. Download the project code:
-
-    ```shell
-    azd init -t azureai-basic-python
-    ```
-
-3. Open the project folder in your terminal or editor.
-
-</details>
-
 <br/>
+
 <h2>
 Supporting documentation
 </h2>
-
-### 
 
 ### How to customize 
 

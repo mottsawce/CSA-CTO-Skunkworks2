@@ -73,6 +73,8 @@ This is the fastest way to get the solution deployed and uses the command line i
 3. Open the project folder in your terminal or editor.
 
 </details>
+<br>
+**Advanced Deployment Options**
 
 <details>
   <summary><b>Deploy with Bicep</b></summary>

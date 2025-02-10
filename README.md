@@ -44,7 +44,7 @@ Deployment & installation
 
 ### **Prerequisites**
 
-To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/) with permission to create resource groups and resources. 
+To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/) with permission to create resource groups and resources. For more detailed prerequisities, review the deployment options in the following section.
 
 ### **Deployment Options**
 Pick from the options below to see step-by-step instructions for: Bicep, GitHub Codespaces, VS Code Dev Containers, and Local Environments, deployments.
@@ -53,9 +53,9 @@ We recommend using the first option (Bicep) because it is the fastest and easies
 <details>
   <summary><b>Quick deploy using AZD</b></summary>
 
-### Local environment using Azure Developer CLI
+### Deploy in your local environment using Azure Developer CLI
 
-This is the fastest way to get the solution deployed and uses the command line interface. We recommend this option when you're trying out a solution. Visit 'https://learn.microsoft.com/en-us/azure/deployment-environments/concept-azure-developer-cli-with-deployment-environments' if you need help with AZD deployments. Follow the steps below to get started:
+This is the fastest way to get the solution deployed and uses the command line interface. We recommend this option when you're trying out a solution. Visit Short Text 'https://learn.microsoft.com/en-us/azure/deployment-environments/concept-azure-developer-cli-with-deployment-environments' if you need help with AZD deployments. Follow the steps below to get started:
 
 1. Make sure the following tools are installed:
 
@@ -74,6 +74,9 @@ This is the fastest way to get the solution deployed and uses the command line i
 
 </details>
 
+<details>
+  <summary><b>Deploy with Bicep</b></summary>
+ 
 ### Bicep
 
 1. Please check the link [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) and choose a region where Azure AI Search, Azure OpenAI services, Azure AI Foundry Services are available. 

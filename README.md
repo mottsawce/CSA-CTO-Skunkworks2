@@ -51,6 +51,13 @@ Pick from the options below to see step-by-step instructions for: Bicep, GitHub 
 We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
 
 <details>
+  <summary style="font-size: 24px; font-weight: bold; color: blue;">Quick Deploy with Azure Developer CLI (AZD)</summary>
+  <p style="font-size: 16px; font-weight: normal; color: green;">
+    This is the content inside the expandable section. You can customize the font size, weight, and color as needed.
+  </p>
+</details>
+
+<details>
   <summary><b>Deploy in Bicep</b></summary>
 
 ### Bicep

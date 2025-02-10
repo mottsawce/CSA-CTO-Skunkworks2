@@ -77,7 +77,7 @@ This is the fastest way to get the solution deployed and uses the command line i
 <details>
   <summary><b>Deploy with Bicep</b></summary>
  
-### Bicep
+### Deploy with Bicep
 
 1. Please check the link [Azure Products by Region](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/?products=all&regions=all) and choose a region where Azure AI Search, Azure OpenAI services, Azure AI Foundry Services are available. 
 
@@ -148,7 +148,7 @@ All files WAV files can be uploaded in the corresponding Lakehouse in the data/F
 <details>
   <summary><b>Deploy in GitHub Codespaces</b></summary>
 
- ### GitHub Codpespaces
+ ### Deploy in GitHub Codpespaces
 
 You can run this template virtually by using GitHub Codespaces. The button will open a web-based VS Code instance in your browser:
 
@@ -164,7 +164,7 @@ You can run this template virtually by using GitHub Codespaces. The button will 
 <details>
   <summary><b>Deploy in VS Code</b></summary>
 
- ### VS Code Dev Containers
+ ### Deploy in VS Code Dev Containers
 
 A related option is VS Code Dev Containers, which will open the project in your local VS Code using the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers):
 

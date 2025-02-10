@@ -55,7 +55,7 @@ We recommend using the first option (Bicep) because it is the fastest and easies
 
 ### Deploy in your local environment using Azure Developer CLI
 
-This is the fastest way to get the solution deployed and uses the command line interface. We recommend this option when you're trying out a solution. Visit .[Microsoft Learn](https://learn.microsoft.com/en-us/azure/deployment-environments/concept-azure-developer-cli-with-deployment-environments) if you need help with AZD deployments. Follow the steps below to get started:
+This is the fastest way to get the solution deployed and uses the command line interface. We recommend this option when you're trying out a solution. Visit [Microsoft Learn](https://learn.microsoft.com/en-us/azure/deployment-environments/concept-azure-developer-cli-with-deployment-environments) if you want to learn more about AZD deployments. Follow the steps below to get started:
 
 1. Make sure the following tools are installed:
 

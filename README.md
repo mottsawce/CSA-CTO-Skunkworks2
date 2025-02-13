@@ -47,6 +47,8 @@ This solution empowers analysts with tools to ask questions and receive real-tim
 
 The sample data used in this repository is synthetic and generated using Azure Open AI service. The data is intended for use as sample data only.
 
+<br/><br/>
+
 ### Business value
 
 **Automate content processing** <br/>
@@ -61,6 +63,8 @@ Improve productivity with natural language prompting and next best query suggest
 **Surface multi-modal insights**<br/>
 Data ingested from multiple content types, such as images, handwritten forms, and text-based tables, is extracted and analyzed to surface key insights in conversational context.
 
+<br/><br/>
+
 ### Who should use this solution accelerator?
 
 Developers should use this solution accelerator in scenarios where they need to extend the capabilities of Azure OpenAI on their data, particularly when dealing with complex data analysis or document processing tasks that go beyond standard use cases. For example, when there is a need to integrate and analyze multiple data modalities (e.g., text, images, structured data) to gain comprehensive insights.
@@ -74,6 +78,8 @@ The accelerator presented here provides several options, for example:
 - Image Processing
 - Multi-modal processing 
 - Natural language text analysis and summarization
+
+<br/><br/>
 
 ### Architecture
 ![image](./Documents/Images/ReadMe/ckm-sol-arch.png)

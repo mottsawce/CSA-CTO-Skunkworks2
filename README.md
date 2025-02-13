@@ -1,7 +1,7 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**Technical key features**](#technical-key-features) \| [**Use case**](#use-case) \|  [**Deployment options**](#deployment-options) \|
- [**Supporting documentation**](#supporting-documentation) \| 
+MENU: [**Key features**](#key-features) \| [**Scenario**](#Scenario) \| [**Deployment options**](#deployment-options) \|
+ [**Supporting documents**](#supporting-documents)
 
 
 
@@ -18,21 +18,62 @@ This solution accelerator leverages Azure AI Foundry, Azure OpenAI, Microsoft Fa
 
 **Version history:** An updated version of the Conversation Knowledge Mining solution accelerator was published on 01/17/2025. If you deployed the accelerator prior to that date, please see “Version history” in the [Supporting documentation](#supporting-documentation) section.
 
-### Technical key features
+### Key features
 
 ![image](./Documents/Images/ReadMe/techkeyfeatures.png)
+
+- **Mined entities and relationships:** Process and extract information unique to your ingested data pipeline such as people, products, events, places, or behaviors. Used to populate filters.
+
+- **​Processed data at scale​:** Choose to chat with all indexed assets, a single asset, select a set of assets, or chat with a  generated list of assets from a based on a user-led keyword search.
+
+- **Visualized insights:** Analyze, compare, and synthesize materials into deep insights, making content accessible through natural language prompting. 
+
+- **Natural language interaction:** Suggest a next best set of questions based on the prompt inquiry. Include referenced materials to guide deeper avenues of user-led discovery.
+
+- **​Actionable insights:** Ingest and extract knowledge from multiple content types and various format types. Enhance with scanned images, handwritten forms, and text-based tables.​
+
+<br/><br/>
 
 Below is an image of the solution accelerator.
 
 ![image](./Documents/Images/ReadMe/ckm-ui.png)
 
-### Use case
+
+### Scenario
 
 An analyst managing large volumes of conversational data needs a solution to visualize key insights and uncover patterns using natural language. An interactive dashboard enables them to explore rich, actionable insights for faster, and more informed decision-making.
  
 This solution empowers analysts with tools to ask questions and receive real-time, contextualized responses. It streamlines problem-solving, enhances collaboration, and fosters innovation by making data-driven insights accessible and shareable.
 
 The sample data used in this repository is synthetic and generated using Azure Open AI service. The data is intended for use as sample data only.
+
+### Business value
+
+**Automate content processing** <br/>
+Process and extract essential details unique to your ingested data pipeline such as people, products, events, places, or behaviors to quickly streamline document review and analysis.
+
+**Enhance insight discovery**<br/>
+User-led insight discovery is enabled through indexed, single, and multi-asset selection, including user generated asset lists used to contextualize, compare and synthesize materials into deep insights.
+
+**Increase user productivity**<br/>
+Improve productivity with natural language prompting and next best query suggestion, including reference materials and automated filter generation, to guide deeper avenues of user-lead discovery.
+
+**Surface multi-modal insights**<br/>
+Data ingested from multiple content types, such as images, handwritten forms, and text-based tables, is extracted and analyzed to surface key insights in conversational context.
+
+### Who should use this solution accelerator?
+
+Developers should use this solution accelerator in scenarios where they need to extend the capabilities of Azure OpenAI on their data, particularly when dealing with complex data analysis or document processing tasks that go beyond standard use cases. For example, when there is a need to integrate and analyze multiple data modalities (e.g., text, images, structured data) to gain comprehensive insights.
+
+The accelerator presented here provides several options, for example:
+- Data ingestion pipeline
+- Entity mapping
+- Key phrase and topic analysis
+- Semantic search
+- Chat with Unstructured (RAG 2.0)
+- Image Processing
+- Multi-modal processing 
+- Natural language text analysis and summarization
 
 ### Architecture
 ![image](./Documents/Images/ReadMe/ckm-sol-arch.png)
@@ -46,6 +87,18 @@ Deployment & installation
 ### **Prerequisites**
 
 To use this solution accelerator, you will need access to an [Azure subscription](https://azure.microsoft.com/free/) with permission to create resource groups and resources. For more detailed prerequisities, review the deployment options in the following section.
+
+For additional training and support, please see:
+
+1. [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/) 
+2. [Azure AI Search](https://learn.microsoft.com/en-us/azure/search/) 
+3. [Azure AI Document Intelligence](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/)
+4. [Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/)
+5. [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/azure/aks/)
+6. [Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/)
+7. [Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/)
+8. [Azure Queue Storage](https://learn.microsoft.com/en-us/azure/storage/queues/)
+9. [Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/)
 
 ### **Deployment Options**
 Pick from the options below to see step-by-step instructions for: Bicep, GitHub Codespaces, VS Code Dev Containers, and Local Environments, deployments.
@@ -182,7 +235,7 @@ A related option is VS Code Dev Containers, which will open the project in your 
 <br/>
 
 <h2>
-Supporting documentation
+Supporting documents
 </h2>
 
 ### How to customize 

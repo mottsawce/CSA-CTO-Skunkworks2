@@ -99,7 +99,7 @@ For additional training and support, please see:
 8. [Azure Queue Storage](https://learn.microsoft.com/en-us/azure/storage/queues/)
 9. [Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/)
 
-### **Deployment Options**
+### **Deployment options**
 Pick from the options below to see step-by-step instructions for: Bicep, GitHub Codespaces, VS Code Dev Containers, and Local Environments, deployments.
 We recommend using the first option (Bicep) because it is the fastest and easiest way to get started.
 

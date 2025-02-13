@@ -1,6 +1,6 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**Key features**](#key-features) \| [**Scenario**](#Scenario) \| [**Deployment options**](#deployment-options) \|
+MENU: [**Key features**](#key-features) \| [**Scenario**](#scenario) \| [**Deployment options**](#deployment-options) \|
  [**Supporting documents**](#supporting-documents)
 
 
@@ -77,7 +77,6 @@ The accelerator presented here provides several options, for example:
 
 ### Architecture
 ![image](./Documents/Images/ReadMe/ckm-sol-arch.png)
-
 
 <h2><img src="./Documents/Images/ReadMe/quickDeploy.png" width="64">
 <br/>

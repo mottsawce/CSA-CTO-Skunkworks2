@@ -74,6 +74,7 @@ This is the fastest way to get the solution deployed and uses the command line i
 
 </details>
 <br>
+
 **Advanced Deployment Options**
 
 <details>

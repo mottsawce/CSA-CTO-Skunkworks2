@@ -1,6 +1,6 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**Key features**](#key-features) \| [**Scenario**](#scenario) \| [**Deployment options**](#deployment-options) \|
+MENU: [**Key features**](#key-features) \| [**Scenario**](#scenario) \| [**How to install and deploy**](#how-to-install-and-deploy) \| [**Deployment options**](#deployment-options) \|
  [**Supporting documents**](#supporting-documents)
 
 
@@ -80,7 +80,7 @@ The accelerator presented here provides several options, for example:
 
 <h2><img src="./Documents/Images/ReadMe/quickDeploy.png" width="64">
 <br/>
-Deployment & installation 
+How to install and deploy 
 </h2>
 
 ### **Prerequisites**

@@ -1,6 +1,6 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**Key features**](#key-features) \| [**Scenario**](#scenario) \| [**How to install and deploy**](#how-to-install-and-deploy) \| [**Deployment options**](#deployment-options) \|
+MENU: [**Key features**](#key-features) \| [**Scenario**](#scenario) \| [**How to install and deploy**](#how-to-install-and-deploy) \|
  [**Supporting documents**](#supporting-documents)
 
 

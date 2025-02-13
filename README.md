@@ -1,6 +1,7 @@
 # Conversation knowledge mining solution accelerator
 
-MENU: [**DEPLOYMENT OPTIONS**](#deployment-options) \| [**SUPPORTING DOCUMENTATION**](#supporting-documentation) \|  [**VERSION HISTORY**](#version-history)
+MENU: [**Technical key features**](#technical-key-features) \| [**Use case**](#use-case) \|  [**Deployment options**](#deployment-options) \|
+ [**How to customize**](#how-to-customize) \| 
 
 
 
@@ -25,7 +26,7 @@ Below is an image of the solution accelerator.
 
 ![image](./Documents/Images/ReadMe/ckm-ui.png)
 
-### Use case / scenario
+### Use case
 
 An analyst managing large volumes of conversational data needs a solution to visualize key insights and uncover patterns using natural language. An interactive dashboard enables them to explore rich, actionable insights for faster, and more informed decision-making.
  

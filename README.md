@@ -1,7 +1,7 @@
 # Conversation knowledge mining solution accelerator
 
 MENU: [**Technical key features**](#technical-key-features) \| [**Use case**](#use-case) \|  [**Deployment options**](#deployment-options) \|
- [**How to customize**](#how-to-customize) \| 
+ [**Supporting documentation**](#supporting-documentation) \| 
 
 
 
